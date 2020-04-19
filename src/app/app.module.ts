@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { StoreModule } from '@ngrx/store';
-import { counterReducer } from "./counter/my-counter/counter.reducer";
+import { counterReducer } from "./counter/counter.reducer";
 import { MyCounterComponent } from './counter/my-counter/my-counter.component';
 import { MyScoreboardComponent } from './scoreboard/my-scoreboard/my-scoreboard.component';
 import * as fromScoreBoard from "./scoreboard/scoreboard.reducer";
